@@ -285,3 +285,57 @@ footer {
   font-size: 13px;
 }
 /**footer css**/
+
+
+/**Responsive styles*/
+
+@media screen and (max-width: 576px) {
+  /**Nav Bar**/
+  nav{
+    font-size: 12px;
+  }
+  .nav-top-section{
+    flex-wrap: wrap;
+  }
+  .nav-center{
+    width: 319px;
+    min-width: 300px;
+  }
+
+  /**Nav Bar**/
+
+  /**header section**/
+  .header{
+    background-position: center;
+  }
+  /**Header section**/
+
+  /**Product Container**/
+  .products-container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 200px;
+    padding: 0px;
+  }
+  .product-cart{
+    width: 90%;
+  }
+  /**Product Container**/
+
+
+  /**Footer**/
+  .footer-top-panel {
+    flex-direction: column;
+  }
+  .footer-bottom-top-pannel{
+    flex-direction: column;
+  }
+  /**Footer**/
+
+}
+
+
+
+/**Responsive styles**/
